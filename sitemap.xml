@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>chenjiale-pku.netlify.app/talk/example-talk/</loc>
+    <loc>chenjiale-pku.github.io/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/</loc>
+    <loc>chenjiale-pku.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/event/</loc>
+    <loc>chenjiale-pku.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
@@ -23,37 +23,17 @@
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/tag/academic/</loc>
+    <loc>chenjiale-pku.github.io/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/categories/</loc>
+    <loc>chenjiale-pku.github.io/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>chenjiale-pku.netlify.app/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>chenjiale-pku.netlify.app/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>chenjiale-pku.netlify.app/post/getting-started/</loc>
+    <loc>chenjiale-pku.github.io/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,57 +43,77 @@
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/tag/%E5%BC%80%E6%BA%90/</loc>
+    <loc>chenjiale-pku.github.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/category/%E6%95%99%E7%A8%8B/</loc>
+    <loc>chenjiale-pku.github.io/tags/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/slides/</loc>
+    <loc>chenjiale-pku.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>chenjiale-pku.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>chenjiale-pku.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>chenjiale-pku.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/slides/example/</loc>
+    <loc>chenjiale-pku.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/tag/deep-learning/</loc>
+    <loc>chenjiale-pku.github.io/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/project/example/</loc>
+    <loc>chenjiale-pku.github.io/project/example/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/project/</loc>
+    <loc>chenjiale-pku.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/publication-type/1/</loc>
+    <loc>chenjiale-pku.github.io/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/publication/example/</loc>
+    <loc>chenjiale-pku.github.io/publication/example/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/publication_types/</loc>
+    <loc>chenjiale-pku.github.io/publication_types/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>chenjiale-pku.netlify.app/publication/</loc>
+    <loc>chenjiale-pku.github.io/publication/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   

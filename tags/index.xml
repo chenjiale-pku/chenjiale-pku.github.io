@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Jiale Chen</title>
-    <link>chenjiale-pku.netlify.app/tags/</link>
-      <atom:link href="chenjiale-pku.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>chenjiale-pku.github.io/tags/</link>
+      <atom:link href="chenjiale-pku.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/chenjiale-pku.netlify.app/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/chenjiale-pku.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
-      <link>chenjiale-pku.netlify.app/tags/</link>
+      <link>chenjiale-pku.github.io/tags/</link>
     </image>
     
   </channel>

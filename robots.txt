@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: chenjiale-pku.netlify.app/sitemap.xml
+Sitemap: chenjiale-pku.github.io/sitemap.xml

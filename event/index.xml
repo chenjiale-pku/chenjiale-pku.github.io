@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Jiale Chen</title>
-    <link>chenjiale-pku.netlify.app/event/</link>
-      <atom:link href="chenjiale-pku.netlify.app/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>chenjiale-pku.github.io/event/</link>
+      <atom:link href="chenjiale-pku.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/chenjiale-pku.netlify.app/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/chenjiale-pku.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>chenjiale-pku.netlify.app/event/</link>
+      <link>chenjiale-pku.github.io/event/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>chenjiale-pku.netlify.app/talk/example-talk/</link>
+      <link>chenjiale-pku.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>chenjiale-pku.netlify.app/talk/example-talk/</guid>
+      <guid>chenjiale-pku.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
