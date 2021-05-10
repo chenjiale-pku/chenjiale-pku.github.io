@@ -2,8 +2,8 @@
   // ns-params:@params
   var slides = {highlight_style: "dracula", theme: "black"};
 
-  // ns-hugo:C:\Users\Chenj\AppData\Local\Temp\hugo_cache\modules\filecache\modules\pkg\mod\github.com\wowchemy\wowchemy-hugo-modules\wowchemy@v0.0.0-20210202235530-9bbf6fa2a698\assets\js\wowchemy-utils.js
-  function fixMermaid() {
+  // ns-hugo:C:\Users\Chenj\AppData\Local\Temp\hugo_cache\modules\filecache\modules\pkg\mod\github.com\wowchemy\wowchemy-hugo-modules\wowchemy@v0.0.0-20210501191334-2d9c18ecf0ef\assets\js\wowchemy-utils.js
+  function fixMermaid(render = false) {
     let mermaids = [];
     [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));
     for (let i = 0; i < mermaids.length; i++) {
@@ -11,8 +11,14 @@
       let newElement = document.createElement("div");
       newElement.innerHTML = mermaidCodeElement.innerHTML;
       newElement.classList.add("mermaid");
+      if (render) {
+        window.mermaid.mermaidAPI.render(`mermaid-${i}`, newElement.textContent, function(svgCode) {
+          newElement.innerHTML = svgCode;
+        });
+      }
       mermaidCodeElement.parentNode.replaceWith(newElement);
     }
+    console.debug(`Processed ${mermaids.length} Mermaid code blocks`);
   }
 
   // js/wowchemy-slides.js
@@ -91,7 +97,7 @@
     mermaidOptions["startOnLoad"] = false;
     mermaid.initialize(mermaidOptions);
     document.addEventListener("DOMContentLoaded", function() {
-      fixMermaid();
+      fixMermaid(false);
     });
   }
   var mermaidOptions;
