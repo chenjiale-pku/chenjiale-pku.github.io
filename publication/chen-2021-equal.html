@@ -30,10 +30,11 @@
   
     
   
-  <meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+  <meta name="description" content="In the setting where a group of agents is asked a single subjective multi-choice question (e.g. which one do you prefer? cat or dog?), we are interested in evaluating the quality of the collected feedback. However, the collected statistics are not sufficient to reflect how informative the feedback is since fully informative feedback (equal affection of the choices) and fully uninformative feedback (random selection) have the same uniform statistics.
+Here we distinguish the above two scenarios by additionally asking for respondents&#39; predictions about others&#39; choices. We assume that informative respondents&#39; predictions strongly depend on their own choices while uninformative respondents&#39; do not. With this assumption, we propose a new definition for uninformative feedback and correspondingly design a family of evaluation metrics, called f-variety, for group-level feedback which can 1) distinguish informative feedback and uninformative feedback (separation) even if their statistics are both uniform and 2) decrease as the ratio of uninformative respondents increases (monotonicity). We validate our approach both theoretically and numerically. Moreover, we conduct two real-world case studies about 1) comparisons about athletes and 2) comparisons about stand-up comedians to show the superiority of our approach." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://chenjiale-pku.github.io/talk/example-talk.html" />
+  <link rel="alternate" hreflang="en-us" href="https://chenjiale-pku.github.io/publication/chen-2021-equal.html" />
 
   
 
@@ -273,7 +274,7 @@
   <link rel="icon" type="image/png" href="../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://chenjiale-pku.github.io/talk/example-talk.html" />
+  <link rel="canonical" href="https://chenjiale-pku.github.io/publication/chen-2021-equal.html" />
 
   
   
@@ -284,31 +285,36 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Jiale Chen" />
-  <meta property="og:url" content="https://chenjiale-pku.github.io/talk/example-talk.html" />
-  <meta property="og:title" content="Example Talk | Jiale Chen" />
-  <meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://chenjiale-pku.github.io/talk/example-talk/featured.jpg" />
-    <meta property="twitter:image" content="https://chenjiale-pku.github.io/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://chenjiale-pku.github.io/publication/chen-2021-equal.html" />
+  <meta property="og:title" content="Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective | Jiale Chen" />
+  <meta property="og:description" content="In the setting where a group of agents is asked a single subjective multi-choice question (e.g. which one do you prefer? cat or dog?), we are interested in evaluating the quality of the collected feedback. However, the collected statistics are not sufficient to reflect how informative the feedback is since fully informative feedback (equal affection of the choices) and fully uninformative feedback (random selection) have the same uniform statistics.
+Here we distinguish the above two scenarios by additionally asking for respondents&#39; predictions about others&#39; choices. We assume that informative respondents&#39; predictions strongly depend on their own choices while uninformative respondents&#39; do not. With this assumption, we propose a new definition for uninformative feedback and correspondingly design a family of evaluation metrics, called f-variety, for group-level feedback which can 1) distinguish informative feedback and uninformative feedback (separation) even if their statistics are both uniform and 2) decrease as the ratio of uninformative respondents increases (monotonicity). We validate our approach both theoretically and numerically. Moreover, we conduct two real-world case studies about 1) comparisons about athletes and 2) comparisons about stand-up comedians to show the superiority of our approach." /><meta property="og:image" content="https://chenjiale-pku.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://chenjiale-pku.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2017-01-01T00:00:00&#43;00:00"
+        content="2021-07-07T12:51:36&#43;08:00"
       />
     
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-07-07T12:51:36&#43;08:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -316,43 +322,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://chenjiale-pku.github.io/talk/example-talk.html"
+    "@id": "https://chenjiale-pku.github.io/publication/chen-2021-equal.html"
   },
-  "name": "Example Talk",
+  "headline": "Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective",
   
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
+  "datePublished": "2021-07-07T12:51:36+08:00",
+  "dateModified": "2021-07-07T12:51:36+08:00",
   
-  
-  "image": [
-    "https://chenjiale-pku.github.io/talk/example-talk/featured.jpg"
-  ],
-  
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Jiale Chen"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jiale Chen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chenjiale-pku.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "In the setting where a group of agents is asked a single subjective multi-choice question (e.g. which one do you prefer? cat or dog?), we are interested in evaluating the quality of the collected feedback. However, the collected statistics are not sufficient to reflect how informative the feedback is since fully informative feedback (equal affection of the choices) and fully uninformative feedback (random selection) have the same uniform statistics.\nHere we distinguish the above two scenarios by additionally asking for respondents' predictions about others' choices. We assume that informative respondents' predictions strongly depend on their own choices while uninformative respondents' do not. With this assumption, we propose a new definition for uninformative feedback and correspondingly design a family of evaluation metrics, called f-variety, for group-level feedback which can 1) distinguish informative feedback and uninformative feedback (separation) even if their statistics are both uniform and 2) decrease as the ratio of uninformative respondents increases (monotonicity). We validate our approach both theoretically and numerically. Moreover, we conduct two real-world case studies about 1) comparisons about athletes and 2) comparisons about stand-up comedians to show the superiority of our approach."
 }
 </script>
 
@@ -362,15 +355,17 @@
 
   
 
+  
 
 
 
 
-  <title>Example Talk | Jiale Chen</title>
+
+  <title>Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective | Jiale Chen</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e78a63c26d591a0a708cbda88f83cc51" >
 
   
   
@@ -553,7 +548,16 @@
   </div>
 
   <div class="page-body">
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -568,33 +572,45 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Example Talk</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Jiale Chen</span>, <span >
+      Yuqing Kong</span>, <span >
+      Yuxuan Lu</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2021
+  </span>
   
 
   
@@ -613,7 +629,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -630,29 +646,30 @@
 
 
   
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="../project/example.html">
-    Project
-  </a>
+    
   
 
 
 
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2102.12247.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
-  
-  <a class="btn btn-outline-primary btn-page-header" href="../slides/example.html" target="_blank">
-    Slides
-  </a>
-  
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/chen-2021-equal/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -669,23 +686,16 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=UcFKtOOrTJ8" target="_blank" rel="noopener">
+    
+    1-Minute Talk
   </a>
 
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
-  <div style="position: relative">
-    <img src="../talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs"><strong>Unsplash</strong></a></span>
-  </div>
+  
 </div>
 
 
@@ -693,33 +703,21 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">In the setting where a group of agents is asked a single subjective multi-choice question (e.g. which one do you prefer? cat or dog?), we are interested in evaluating the quality of the collected feedback. However, the collected statistics are not sufficient to reflect how informative the feedback is since fully informative feedback (equal affection of the choices) and fully uninformative feedback (random selection) have the same uniform statistics.
+Here we distinguish the above two scenarios by additionally asking for respondents' predictions about others' choices. We assume that informative respondents' predictions strongly depend on their own choices while uninformative respondents' do not. With this assumption, we propose a new definition for uninformative feedback and correspondingly design a family of evaluation metrics, called f-variety, for group-level feedback which can 1) distinguish informative feedback and uninformative feedback (separation) even if their statistics are both uniform and 2) decrease as the ratio of uninformative respondents increases (monotonicity). We validate our approach both theoretically and numerically. Moreover, we conduct two real-world case studies about 1) comparisons about athletes and 2) comparisons about stand-up comedians to show the superiority of our approach.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
+            <a href="../publication.html#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -730,40 +728,10 @@
     
 
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
-  <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-  </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
-
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -785,7 +753,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://chenjiale-pku.github.io/talk/example-talk.html&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://chenjiale-pku.github.io/publication/chen-2021-equal.html&amp;text=Equal%20Affection%20or%20Random%20Selection:%20the%20Quality%20of%20Subjective%20Feedback%20from%20a%20Group%20Perspective" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -798,7 +766,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://chenjiale-pku.github.io/talk/example-talk.html&amp;t=Example%20Talk" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://chenjiale-pku.github.io/publication/chen-2021-equal.html&amp;t=Equal%20Affection%20or%20Random%20Selection:%20the%20Quality%20of%20Subjective%20Feedback%20from%20a%20Group%20Perspective" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -811,7 +779,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https://chenjiale-pku.github.io/talk/example-talk.html" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Equal%20Affection%20or%20Random%20Selection:%20the%20Quality%20of%20Subjective%20Feedback%20from%20a%20Group%20Perspective&amp;body=https://chenjiale-pku.github.io/publication/chen-2021-equal.html" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -824,7 +792,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://chenjiale-pku.github.io/talk/example-talk.html&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://chenjiale-pku.github.io/publication/chen-2021-equal.html&amp;title=Equal%20Affection%20or%20Random%20Selection:%20the%20Quality%20of%20Subjective%20Feedback%20from%20a%20Group%20Perspective" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -837,7 +805,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example%20Talk%20https://chenjiale-pku.github.io/talk/example-talk.html" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Equal%20Affection%20or%20Random%20Selection:%20the%20Quality%20of%20Subjective%20Feedback%20from%20a%20Group%20Perspective%20https://chenjiale-pku.github.io/publication/chen-2021-equal.html" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -850,7 +818,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://chenjiale-pku.github.io/talk/example-talk.html&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://chenjiale-pku.github.io/publication/chen-2021-equal.html&amp;title=Equal%20Affection%20or%20Random%20Selection:%20the%20Quality%20of%20Subjective%20Feedback%20from%20a%20Group%20Perspective" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -870,94 +838,40 @@
 
   
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   
   
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://chenjiale-pku.github.io/"><img class="avatar mr-3 avatar-circle" src="../authors/admin/avatar_hu2d7edf9c1fedadbb80e024191dcf76fa_185731_270x270_fill_q75_lanczos_center.jpg" alt="Jiale Chen"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://chenjiale-pku.github.io/">Jiale Chen</a></h5>
-      <h6 class="card-subtitle">Undergrad in Computer Science</h6>
-      <p class="card-text">My research interests mainly lie in the intersection of theoretical computer science and Economics.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:jiale_chen@pku.edu.cn" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/chenjiale-pku" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="../file/cv.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
