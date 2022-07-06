@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="My research interests lie in the intersection of theoretical computer science and economics, with a goal to provide elegant explanations and practical guidance for social phenomena." />
+  <meta name="description" content="We studied the local fairness of the cake-cutting problem. We proposed an Ω(n2) lower bound for the local envy-freeness under star graphs with constraints and proposed a partial locally envyfree protocol for 4-Path which can be easily extended to 5-Path." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://chenjiale-pku.github.io/publication-type/3.html" />
+  <link rel="alternate" hreflang="en-us" href="https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html" />
 
   
 
@@ -268,8 +268,6 @@
   
 
   
-    <link rel="alternate" href="../publication-type/3/index.xml" type="application/rss+xml" title="Jiale Chen" />
-  
 
   
     <link rel="manifest" href="../index.webmanifest" />
@@ -278,7 +276,7 @@
   <link rel="icon" type="image/png" href="../media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="../media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://chenjiale-pku.github.io/publication-type/3.html" />
+  <link rel="canonical" href="https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html" />
 
   
   
@@ -295,33 +293,80 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Jiale Chen" />
-  <meta property="og:url" content="https://chenjiale-pku.github.io/publication-type/3.html" />
-  <meta property="og:title" content="3 | Jiale Chen" />
-  <meta property="og:description" content="My research interests lie in the intersection of theoretical computer science and economics, with a goal to provide elegant explanations and practical guidance for social phenomena." /><meta property="og:image" content="https://chenjiale-pku.github.io/media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_512x512_fill_lanczos_center_2.png" />
+  <meta property="og:url" content="https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html" />
+  <meta property="og:title" content="A Note on Locally Fair Cake-Cutting | Jiale Chen" />
+  <meta property="og:description" content="We studied the local fairness of the cake-cutting problem. We proposed an Ω(n2) lower bound for the local envy-freeness under star graphs with constraints and proposed a partial locally envyfree protocol for 4-Path which can be easily extended to 5-Path." /><meta property="og:image" content="https://chenjiale-pku.github.io/media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_512x512_fill_lanczos_center_2.png" />
     <meta property="twitter:image" content="https://chenjiale-pku.github.io/media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2022-07-06T00:00:00&#43;08:00" />
+      <meta
+        property="article:published_time"
+        content="2022-07-06T00:00:00&#43;08:00"
+      />
     
+    <meta property="article:modified_time" content="2022-07-06T00:00:00&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html"
+  },
+  "headline": "A Note on Locally Fair Cake-Cutting",
+  
+  "datePublished": "2022-07-06T00:00:00+08:00",
+  "dateModified": "2022-07-06T00:00:00+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jiale Chen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jiale Chen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chenjiale-pku.github.io/media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "We studied the local fairness of the cake-cutting problem. We proposed an Ω(n2) lower bound for the local envy-freeness under star graphs with constraints and proposed a partial locally envyfree protocol for 4-Path which can be easily extended to 5-Path."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>3 | Jiale Chen</title>
+  <title>A Note on Locally Fair Cake-Cutting | Jiale Chen</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="70377b70264ee41a31b8c974fed42697" >
 
   
   
@@ -513,6 +558,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -521,63 +577,323 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>A Note on Locally Fair Cake-Cutting</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jiale Chen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>3</h1>
 
-  
+
+
+<a class="btn btn-outline-primary btn-page-header" href="../file/A_Note_on_Locally_Fair_Cake_Cutting.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We studied the local fairness of the cake-cutting problem. We proposed an Ω(n2) lower bound for the local envy-freeness under star graphs with constraints and proposed a partial locally envyfree protocol for 4-Path which can be easily extended to 5-Path.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="../publication.html#3">
+              Preprint
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Manuscript (Not Intended to Publish)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html&amp;text=A%20Note%20on%20Locally%20Fair%20Cake-Cutting" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html&amp;t=A%20Note%20on%20Locally%20Fair%20Cake-Cutting" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=A%20Note%20on%20Locally%20Fair%20Cake-Cutting&amp;body=https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html&amp;title=A%20Note%20on%20Locally%20Fair%20Cake-Cutting" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=A%20Note%20on%20Locally%20Fair%20Cake-Cutting%20https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html&amp;title=A%20Note%20on%20Locally%20Fair%20Cake-Cutting" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
 
   
   
     
+
+
+
+  
+  
+  
     
+  
+  
+  
+  <div class="media author-card content-widget-hr">
     
-    <div>
-      <h2><a href="../publication/locallyfaircakecutting.html" >A Note on Locally Fair Cake-Cutting</a></h2>
-      <div class="article-style">
-        
-          We studied the local fairness of the cake-cutting problem. We proposed an Ω(n2) lower bound for the local envy-freeness under star graphs with constraints and proposed a partial locally envyfree protocol for 4-Path which can be easily extended to …
-        
-      </div>
-    </div>
+      
+      <a href="https://chenjiale-pku.github.io/"><img class="avatar mr-3 avatar-circle" src="../authors/jiale-chen/avatar_hu2d7edf9c1fedadbb80e024191dcf76fa_185731_270x270_fill_q75_lanczos_center.jpg" alt="Jiale Chen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chenjiale-pku.github.io/">Jiale Chen</a></h5>
+      <h6 class="card-subtitle">Undergrad in Computer Science</h6>
+      <p class="card-text">My research interests lie in the intersection of theoretical computer science and economics, with a goal to provide elegant explanations and practical guidance for social phenomena.</p>
+      <ul class="network-icon" aria-hidden="true">
   
     
     
     
-    <div>
-      <h2><a href="../publication/chen-2021-equal.html" >Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective</a></h2>
-      <div class="article-style">
-        
-          In the setting where a group of agents is asked a single subjective multi-choice question (e.g. which one do you prefer? cat or dog?), we are interested in evaluating the quality of the collected feedback. However, the collected statistics are not …
-        
-      </div>
-    </div>
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiale_chen@pku.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
   
-    
-    
-    
-    <div>
-      <h2><a href="../publication/hoppingtimer.html" >HoppingTimer: A Near-optimal Framework for Basic Estimation of Data Streams in Hopping Windows</a></h2>
-      <div class="article-style">
-        
-          In high-speed data streams, recent items are often much more significant than outdated ones. Therefore, basic estimation of data streams in hopping windows is an important topic. Basic estimation tasks include cardinality estimation and membership …
-        
-      </div>
+</ul>
+
     </div>
-  
+  </div>
+
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
 </div>
   </div>
 

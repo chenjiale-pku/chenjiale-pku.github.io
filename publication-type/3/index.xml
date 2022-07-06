@@ -5,12 +5,20 @@
     <link>https://chenjiale-pku.github.io/publication-type/3.html</link>
       <atom:link href="https://chenjiale-pku.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jul 2021 12:51:36 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0800</lastBuildDate>
     <image>
       <url>https://chenjiale-pku.github.io/media/icon_hub01ce061509eb44066fbaf0949bbd7ae_290050_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
       <link>https://chenjiale-pku.github.io/publication-type/3.html</link>
     </image>
+    
+    <item>
+      <title>A Note on Locally Fair Cake-Cutting</title>
+      <link>https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0800</pubDate>
+      <guid>https://chenjiale-pku.github.io/publication/locallyfaircakecutting.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Equal Affection or Random Selection: the Quality of Subjective Feedback from a Group Perspective</title>
