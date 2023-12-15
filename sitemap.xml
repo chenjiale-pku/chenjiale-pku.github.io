@@ -2,19 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chenjiale-pku.github.io/publication-type/3/</loc>
+    <lastmod>2023-12-15T00:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chenjiale-pku.github.io/publication/entropyregularization/</loc>
+    <lastmod>2023-12-15T00:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chenjiale-pku.github.io/publication_types/</loc>
+    <lastmod>2023-12-15T00:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chenjiale-pku.github.io/publication/</loc>
+    <lastmod>2023-12-15T00:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://chenjiale-pku.github.io/publication-type/1/</loc>
     <lastmod>2023-05-06T12:42:21-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://chenjiale-pku.github.io/publication/fairgrading/</loc>
-    <lastmod>2023-05-06T12:42:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chenjiale-pku.github.io/publication_types/</loc>
-    <lastmod>2023-05-06T12:42:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chenjiale-pku.github.io/publication/</loc>
     <lastmod>2023-05-06T12:42:21-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -28,10 +36,6 @@
   </url><url>
     <loc>https://chenjiale-pku.github.io/publication/locallyfaircakecutting/</loc>
     <lastmod>2022-07-06T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chenjiale-pku.github.io/publication-type/3/</loc>
-    <lastmod>2021-07-07T12:51:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://chenjiale-pku.github.io/publication/chen-2021-equal/</loc>
